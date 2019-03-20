@@ -25,7 +25,9 @@ class DreamDiscordChestShop : KotlinPlugin(), Listener {
 	override fun softEnable() {
 		super.softEnable()
 
-		val configFile = File("config.json")
+		val configFile = File(this.dataFolder, "config.json")
+
+		this.dataFolder.mkdir()
 
 		if (!configFile.exists()) {
 			configFile.createNewFile()
