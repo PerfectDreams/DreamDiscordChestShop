@@ -54,7 +54,7 @@ class DreamDiscordChestShop : KotlinPlugin(), Listener {
 		}
 
 		LOGGING_WEBHOOK.send(DiscordMessage(
-				content = "<:lori_ok_hand:384300163390373888> **`${event.player.name}`** criou uma loja ${special}de *${event.signLines[1]} ${event.signLines[3]}* por *${event.signLines[2]}* em `${event.sign.world.name}` `${event.sign.location.blockX}`, `${event.sign.location.blockY}`, `${event.sign.location.blockZ}`"
+				content = "<:lori_ok_hand:543220330295066645> **`${event.player.name}`** criou uma loja ${special}de *${event.signLines[1]} ${event.signLines[3]}* por *${event.signLines[2]}* em `${event.sign.world.name}` `${event.sign.location.blockX}`, `${event.sign.location.blockY}`, `${event.sign.location.blockZ}`"
 		))
 	}
 
@@ -71,7 +71,7 @@ class DreamDiscordChestShop : KotlinPlugin(), Listener {
 		}
 
 		LOGGING_WEBHOOK.send(DiscordMessage(
-				content = "<:lori_triste:390855092976222216> $who que vendia *${event.sign.lines[1]} ${event.sign.lines[3]}* por *${event.sign.lines[2]}* em `${event.sign.world.name}` `${event.sign.location.blockX}`, `${event.sign.location.blockY}`, `${event.sign.location.blockZ}`"
+				content = "<:lori_triste:543235418481623051> $who que vendia *${event.sign.lines[1]} ${event.sign.lines[3]}* por *${event.sign.lines[2]}* em `${event.sign.world.name}` `${event.sign.location.blockX}`, `${event.sign.location.blockY}`, `${event.sign.location.blockZ}`"
 		))
 	}
 
